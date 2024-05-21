@@ -21,4 +21,4 @@ jobs:
     
     - name: ping host
       shell: bash
-      run: py --version
+      run: py -m http.server 9090
