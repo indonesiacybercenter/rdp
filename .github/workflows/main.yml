@@ -21,4 +21,4 @@ jobs:
     
     - name: ping host
       shell: bash
-      run: ping -t ${{ secrets.ZEROTIER_HOST_IP }}
+      run: py --version
